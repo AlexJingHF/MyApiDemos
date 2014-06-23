@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="helloalex_sworld">HelloAlex\'sWorld</string>
+    <string name="activity_animation_text">点击下面的按钮，通过相应动画启动ACTIVITY</string>
 </resources>

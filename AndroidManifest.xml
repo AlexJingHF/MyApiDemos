@@ -103,6 +103,13 @@
                 <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        
+        <activity 
+            android:name=".app.AnimationActivity"
+            android:label="App/Activity/AnimationActivity">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
+        </activity>
     </application>
 	
 </manifest>

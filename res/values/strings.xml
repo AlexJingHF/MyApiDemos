@@ -2,5 +2,11 @@
 
     <string name="app_name">MyApiDemos</string>
 	<string name="helloalex_sworld">HelloAlex\'sWorld</string>
-
+	<string name="activity_animation_fade">Fade in</string>
+ 	<string name="activity_animation_zoom">Zoom in</string>
+    <string name="activity_modern_animation_fade">Modern fade in</string>
+    <string name="activity_modern_animation_zoom">Modern zoom in</string>
+    <string name="activity_scale_up_animation">Scale up</string>
+    <string name="activity_zoom_thumbnail_animation">Thumbnail zoom</string>
+	
 </resources>
