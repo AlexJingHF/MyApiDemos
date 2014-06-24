@@ -116,6 +116,15 @@
 
             <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" /></intent-filter>
         </activity>
-    </application>
 
+        <activity android:name=".app.SaveRestoreState"
+                android:label="App/Activity/SaveRestoreState"
+                android:windowSoftInputMode="stateVisible|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+    </application>
+	
 </manifest>
