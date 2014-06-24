@@ -116,7 +116,7 @@
 
             <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" /></intent-filter>
         </activity>
-
+        <!-- 没有存储功能 -->
         <activity android:name=".app.SaveRestoreState"
                 android:label="App/Activity/SaveRestoreState"
                 android:windowSoftInputMode="stateVisible|adjustResize">
@@ -125,6 +125,19 @@
                 <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        
+        <activity 
+            android:name=".app.PersistentState"
+            android:label="App/Activity/PersistentState"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN"/>
+                
+                <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
+        
     </application>
 	
 </manifest>
