@@ -6,4 +6,7 @@
     <string name="dialog_activity_add">add</string>
     <string name="dialog_activity_remove">remove</string>
     <string name="translucent_background">示例 透明的ACTIVITY 是如何弄出来的</string>
+    <string name="saves_state">This text field saves its state:</string>
+    <string name="initial_text">Initial text.</string>
+    <string name="no_saves_state">This text field does not save its state:</string>
 </resources>
