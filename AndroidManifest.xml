@@ -138,6 +138,17 @@
             </intent-filter>
         </activity>
         
+        <activity 
+            android:name=".app.FinishAffinity"
+            android:label="App/Activity/FinishAffinity"
+            android:taskAffinity=":finishing"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN"/>
+                
+                <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
     </application>
 	
 </manifest>
