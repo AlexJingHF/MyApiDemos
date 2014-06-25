@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="4dp"
+    >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="不同的软输入模式，对应用输入法的影响"
+        />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	   	android:layout_height="wrap_content"
+	   	android:orientation="horizontal"
+	   	android:gravity="center_horizontal"
+	    >
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:text="输入模式："
+	        />
+	    <Spinner 
+	        android:id="@+id/resize_mode"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:drawSelectorOnTop = "true"
+	        />
+	</LinearLayout>
+	
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:paddingBottom="6dp"
+	    android:background="@android:color/holo_purple"
+	    android:freezesText="true"
+	    android:text="其大小将随着输入框而变化"
+	    />
+	 <EditText android:id="@+id/saved"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@android:color/holo_orange_light"
+        android:text="点击输入"
+        android:freezesText="true">
+        <requestFocus />
+    </EditText>
+</LinearLayout>
