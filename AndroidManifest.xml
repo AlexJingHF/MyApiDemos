@@ -32,7 +32,7 @@
 
         <activity
             android:name=".app.HelloWorld"
-            android:label="@string/app_activity_hello_world" >
+            android:label="App/Activity/HelloWorld" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -134,6 +134,16 @@
             <intent-filter >
                 <action android:name="android.intent.action.MAIN"/>
                 
+                <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".app.ActivityRecreate"
+            android:label="App/Activity/ActivityRecreate"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN"/>
                 <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE"/>
             </intent-filter>
         </activity>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_activity_hello_world">App/Activity/<b>Hello <i>World</i></b></string>
+    <string name="app_activity_hello_world">App/Activity/Hello World</string>
     <string name="custom_dialog_activity_text">这个是自定义Dialog Activity</string>
     <string name="dialog_activity_text">Example of how you can use the\n            Theme.Dialog theme to make an activity that looks like a\n            dialog.  It also has lots of text to show how text wrapping (and\n            corresponding window size adjustment) can happen in a dialog.</string>
     <string name="dialog_activity_add">add</string>
