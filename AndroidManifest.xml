@@ -190,6 +190,22 @@
         <activity 
             android:name=".app.ForwardTarget"
             ></activity>
+        <activity 
+            android:name=".app.RedirectEnter"
+            android:label="App/Activity/RedirectEnter"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".app.RedirectMain"
+            ></activity>
+        <activity 
+            android:name=".app.RedirectGetter"
+            ></activity>
     </application>
 
 </manifest>

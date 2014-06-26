@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="4dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="输入的蚊子将被主Activity使用，点击返回取消操作"        
+        />
+	<EditText 
+	    android:id="@+id/text"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0"
+	    android:paddingBottom="4dp"
+	    />
+	
+	<Button 
+	    android:id="@+id/apply"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="应用"
+	    />
+</LinearLayout>

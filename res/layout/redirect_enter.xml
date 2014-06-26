@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:gravity="center_horizontal"
+     >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="点击按钮进入下一个Activity,它将启动另外一个Activity收集用户信息"
+        />
+	<Button 
+	    android:id="@+id/go"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="GO"
+	    />
+</LinearLayout>
