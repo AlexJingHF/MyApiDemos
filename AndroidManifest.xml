@@ -212,6 +212,21 @@
                 <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity android:name=".app.ReorderFour" >
+        </activity>
+        <activity
+            android:name=".app.ReorderOnLaunch"
+            android:label="App/Activity/ReorderOnLaunch" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app.ReorderTwo" >
+        </activity>
+        <activity android:name=".app.ReorderThree" >
+        </activity>
     </application>
 
 </manifest>
