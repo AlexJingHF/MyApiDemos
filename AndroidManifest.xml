@@ -4,6 +4,7 @@
     android:versionName="1.0" >
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
 
     <uses-sdk
         android:minSdkVersion="18"
@@ -226,6 +227,16 @@
         <activity android:name=".app.ReorderTwo" >
         </activity>
         <activity android:name=".app.ReorderThree" >
+        </activity>
+        <!-- 需要加入设置壁纸的权限 -->
+        <activity
+            android:name=".app.setWallpaperActivity"
+            android:label="App/Activity/SetWallpaper" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
+            </intent-filter>
         </activity>
     </application>
 
