@@ -177,35 +177,41 @@
         </activity>
         <activity android:name=".app.SendResult" >
         </activity>
-        <activity 
+        <activity
             android:name=".app.Forwarding"
-            android:label="App/Activity/Forwarding"
-            >
+            android:label="App/Activity/Forwarding" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-        <activity 
-            android:name=".app.ForwardTarget"
-            ></activity>
-        <activity 
+        <activity android:name=".app.ForwardTarget" >
+        </activity>
+        <activity
             android:name=".app.RedirectEnter"
-            android:label="App/Activity/RedirectEnter"
-            >
+            android:label="App/Activity/RedirectEnter" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-        <activity 
-            android:name=".app.RedirectMain"
-            ></activity>
-        <activity 
-            android:name=".app.RedirectGetter"
-            ></activity>
+        <activity android:name=".app.RedirectMain" >
+        </activity>
+        <activity android:name=".app.RedirectGetter" >
+        </activity>
+        <!-- 若没有主题的话 会报错 You cannot combine custom titles with other title features -->
+        <activity
+            android:name=".app.CustomTitle"
+            android:label="App/Activity/CustomTitle"
+            android:theme="@android:style/Theme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
