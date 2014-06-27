@@ -238,6 +238,15 @@
                 <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".app.ScreenOrientation"
+            android:label="App/Activity/ScreenOrientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.example.alex.myapidemos.ApiDeoms.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

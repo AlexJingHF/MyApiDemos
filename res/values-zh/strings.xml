@@ -4,4 +4,5 @@
     <string name="activity_animation_text">点击下面的按钮，通过相应动画启动ACTIVITY</string>
     <string name="activity_savedinstance_text">每次创建新的activity，主题根据上次savedInstance改变</string>
     <string name="recreate_text">重建</string>
+    <string name="screen_orientation">屏幕取向</string>
 </resources>
